@@ -750,4 +750,9 @@ h3 {
     width: 54px;
     height: 54px;
   }
+  .cv-image {
+  width: 100%;
+  border-radius: 12px;
+  display: block;
+}
 }
