@@ -48,5 +48,7 @@ orderForm.addEventListener("submit", (event) => {
   ].join("\n");
 
   formMessage.textContent = "Membuka WhatsApp untuk melanjutkan konsultasi...";
-  window.open(`https://wa.me/${6281277895708}?text=${encodeURIComponent(message)}`, "_blank");
+  const phone = "6281277895708";
+
+window.open(`https://wa.me/${phone}?text=${encodeURIComponent(message)}`);
 });
